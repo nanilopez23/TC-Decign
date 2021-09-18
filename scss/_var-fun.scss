@@ -1,0 +1,57 @@
+
+$list-color:(#3FAE8F, #FFFFFF, #e9e9e9,black, #89d0bce1 );
+
+//colors//
+$primary:nth($list-color, 1);
+$secondary:nth($list-color, 2);
+$background: nth($list-color, 3);
+$black: nth($list-color, 4);
+$background2: nth($list-color, 5);
+
+
+$heading: ( 3.5, 3, 2, 1);
+
+@each $size in $heading{
+    .heading-#{$size}{
+        font-size: $size *1rem;
+    }
+}
+$text: (7, 6, 5 ,4);
+
+@each $weight in $text{
+    .text-#{$weight}{
+        font-weight: $weight *100;
+    }
+}
+
+//variables//
+//h1//
+$h1font-size: 3.5rem;
+$h1font-weight: 700;
+$h1text-align: center;
+//h2//
+$h2font-size: 3.5rem;
+$h2font-weight: 600;
+$h2text-align: center;
+
+//h3//
+$h3font-size: 2rem;
+$h3font-weight: 500;
+
+//text//
+$text1-font-size: 1rem;
+$text1-font-weight: 400;
+
+//footer//
+$font-size-footer: 1rem;
+$font-weight-footer: 600;
+
+//proyectos titulos//
+$proyect-font-size:1rem;
+$proyect-font-weight:600;
+$proyect-text-align:center;
+
+//valores//
+$val-font-size: 1.4rem;
+$val-font-weight: 700;
+

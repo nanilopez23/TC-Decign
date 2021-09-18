@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color:$background;
+    font-size: 16px;
+}
+.body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr 0.5fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    }
+
+.s2{
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2rem;
+    margin-bottom: 30px;
+}
+.s2__heading{
+    text-align: center;
+    padding: 20px;
+    font-weight: $h3font-weight;
+    text-transform: uppercase;
+    color: $black;
+    margin: 30px;
+}
+@media screen and (max-width:800px){
+    .s2__heading{
+        font-size: 2rem;
+    }
+}
+
+.card{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px;
+}
+.card__caption{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: $secondary;
+    margin: 30px;
+}
+.card__caption-heading3{
+    font-weight: $h3font-weight;
+    color: $primary;
+    text-transform: uppercase;
+}
+.card__caption-text1{
+    font-size: 1.2rem;
+    font-weight: $text1-font-weight;
+}
+.card__imagen1-imagen img, .card__imagen2-imagen img, .card__imagen3-imagen img, .card__imagen4-imagen img{
+    width: 100%;
+    height: 100%;
+    &:hover{
+        transition: 1s;
+        transform:scale(1.030,1.030)
+    }
+}
+.card:nth-child(even) img{
+    order: 2;
+}
+@media screen and (max-width:900px){
+    .card{
+        display:block;
+    }
+    .card__caption-text1{
+        font-size: 1rem;
+    }
+}
