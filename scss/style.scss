@@ -277,6 +277,7 @@ body{
     .proyecto__item__link-img{
         height: 220px;
         width: 100%;
+        object-fit: cover;
         }
     .proyecto__item__link-hover{
         display: flex;
