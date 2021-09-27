@@ -627,7 +627,8 @@ body {
 }
 
 .main__error .error__text .error__text-btm {
-  margin: 50px 45% 50px 45%;
+  width: 30%;
+  margin: 25px 35%;
   border-color: #3FAE8F !important;
   border-width: 2px !important;
   border-radius: 0px !important;
