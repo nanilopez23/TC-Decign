@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body__error{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color:$background;
+    font-size: 16px;
+}
+    
+    .main__error { 
+        width: 100%;
+        min-height: 100vh;
+        margin: 0;
+        background: url(../Assets/error404.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        .error__text{
+        .error__text-h1{
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 7rem;
+            color: black;
+            margin:0px 0px 50px 0px;
+        }
+        .error__text-h2{
+            text-transform: uppercase;
+            text-align: center;
+            color: white;
+        }
+        .error__text-p{
+            padding: 20px;
+            text-align: center;
+            color: black;
+            font-size: 2rem;
+            background-color: $background2;
+        }
+        .error__text-btm{
+            margin:50px 45% 50px 45%;
+            border-color: $primary !important;
+            border-width: 5px !important;
+            border-radius: 15px !important;
+            &:hover{
+                border-color: white !important;
+            }
+            a{
+                text-decoration: none;
+                text-transform: uppercase;
+                color: white !important;
+                font-size: 1.5rem;
+                &:hover{
+                    color: $primary !important;
+                }
+            }
+        }
+    }
+}
