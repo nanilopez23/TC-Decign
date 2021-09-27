@@ -630,7 +630,7 @@ body {
   margin: 50px 45% 50px 45%;
   border-color: #3FAE8F !important;
   border-width: 2px !important;
-  border-radius: 15px !important;
+  border-radius: 0px !important;
 }
 
 .main__error .error__text .error__text-btm:hover {
