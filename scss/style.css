@@ -1567,18 +1567,24 @@ body {
 }
 
 .form__button button {
-  width: 100%;
-  background-color: #3FAE8F;
-  border-color: black;
+  border-color: #3FAE8F !important;
+  border-width: 2px !important;
+  border-radius: 0px !important;
 }
 
 .form__button button:hover {
-  background-color: black;
-  color: #3FAE8F;
+  border-color: white !important;
 }
 
 .form__button button a {
   text-decoration: none;
+  text-transform: uppercase;
+  color: white !important;
+  font-size: 1.5rem;
+}
+
+.form__button button a:hover {
+  color: #3FAE8F !important;
 }
 
 .form__input {

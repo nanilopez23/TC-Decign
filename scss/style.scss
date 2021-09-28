@@ -613,19 +613,26 @@ body{
             .form__button { grid-area: 5 / 2 / 6 / 3;
                 padding: 20px; 
                 text-transform: uppercase;
+                
                 button{
-                    width: 100%;
-                    background-color: $primary;
-                    border-color: black;
+                    border-color: $primary !important;
+                    border-width: 2px !important;
+                    border-radius: 0px !important;
                     &:hover{
-                        background-color: black;
-                        color: $primary;
+                    border-color: white !important;
+                    }
+                    a{
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        color: white !important;
+                        font-size: 1.5rem;
+                        &:hover{
+                            color: $primary !important;
+                        }
                     }
                 }
-            button a{
-                text-decoration: none;
             }
-            }   
+
         .form__input{
             width: 100%;
         }
