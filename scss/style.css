@@ -1087,7 +1087,14 @@ body {
   grid-area: 2 / 1 / 3 / 2;
   background-color: #e9e9e9;
   margin-bottom: 30px;
-  border-radius: 5px;
+  border-radius: 10px;
+}
+
+.s3__diseño:hover i {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
 }
 
 .s3__asesoramiento {
@@ -1098,7 +1105,14 @@ body {
   grid-area: 2 / 2 / 3 / 3;
   background-color: #e9e9e9;
   margin-bottom: 30px;
-  border-radius: 5px;
+  border-radius: 10px;
+}
+
+.s3__asesoramiento:hover i {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
 }
 
 .s3__fabricacion {
@@ -1109,7 +1123,14 @@ body {
   grid-area: 2 / 3 / 3 / 4;
   background-color: #e9e9e9;
   margin-bottom: 30px;
-  border-radius: 5px;
+  border-radius: 10px;
+}
+
+.s3__fabricacion:hover i {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
 }
 
 .s3__diseño-heading3, .s3__asesoramiento-heading3, .s3__fabricacion-heading3 {
